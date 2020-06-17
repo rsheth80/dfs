@@ -1,0 +1,55 @@
+criteo:
+  fn_eval: criteo.kaggle2014.train.test.svm
+  fn_train: criteo.kaggle2014.train.train.svm
+  ncols: 1000000
+  nrows: 36672494
+  nrows_test: 9168123
+  zero_based: 0
+  neg_label: 0
+  binary: 1
+  n_for_stats: 10000
+  disk: 1
+gisette:
+  fn_eval: gisette_scale.t
+  fn_train: gisette_scale
+  ncols: 5000
+  nrows: 6000
+  nrows_test: 1000
+  zero_based: 1
+  neg_label: 1
+  binary: 1
+  n_for_stats: 0
+  disk: 0
+mnist:
+  fn_eval: mnist-35-noisy-binary.test.svm
+  fn_train: mnist-35-noisy-binary.train.svm
+  ncols: 784
+  nrows: 11552
+  nrows_test: 1902
+  zero_based: 1
+  neg_label: 1
+  binary: 1
+  n_for_stats: 0
+  disk: 0
+rcv1:
+  fn_eval: rcv1_test.binary
+  fn_train: rcv1_train.binary
+  ncols: 47236
+  nrows: 20242
+  nrows_test: 677399
+  zero_based: 1
+  neg_label: 1
+  binary: 1
+  n_for_stats: 10000
+  disk: 0
+webgram:
+  fn_eval: webspam_wc_normalized_trigram.test.svm
+  fn_train: webspam_wc_normalized_trigram.train.svm
+  ncols: 16609144
+  nrows: 280000
+  nrows_test: 70000
+  zero_based: 0
+  neg_label: 1
+  binary: 1
+  n_for_stats: 10000
+  disk: 1
